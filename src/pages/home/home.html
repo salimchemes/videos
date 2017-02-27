@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <h2>Youtube</h2>
+      <iframe height="100%" width="100%" [src]="urlYoutube" frameborder="0"></iframe>
+    </ion-item>
+    <ion-item>
+      <h2>Vimeo</h2>
+      <iframe [src]="urlVimeo" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </ion-item>
+
+    <ion-item>
+      <h2>Ustream</h2> 
+      <iframe width="100%" height="100%" [src]="urlUstream" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0"
+        style="border: 0 none transparent;"></iframe>
+    </ion-item>
+  </ion-list>
+</ion-content>
